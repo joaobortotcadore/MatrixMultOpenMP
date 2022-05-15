@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/d/DRIVE/UTFPR/COMPUTAÇÃO GRÁFICA/Projects/OpenMP'
+g++ multiMatriz.cpp -o parallel -fopenmp
+g++ multiMatrizSerial.cpp -o serial
+make: Leaving directory '/mnt/d/DRIVE/UTFPR/COMPUTAÇÃO GRÁFICA/Projects/OpenMP'
+ 
